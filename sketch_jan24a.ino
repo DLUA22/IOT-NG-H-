@@ -164,8 +164,8 @@ void UpdateTime(void)
 
 void SoundBuzzer(void)
 {
-  tone(8, NOTE_C4, 200);  // Phát âm thanh tại tần số 262 Hz trong 200 ms
-  delay(200);             // Đợi 200 ms để đảm bảo âm thanh được phát đủ lâu
+  tone(8, NOTE_C4, 200);  
+  delay(200);             
 }
 
 void InitializeKeys(void)
